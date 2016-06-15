@@ -31,7 +31,7 @@ render: function(){
 
  function renderMessage(){
    if(isLoading){
-     return <h3> Buscando el Clima...</h3>
+     return <h3 className="text-center"> Buscando el Clima...</h3>
    }else if(temp && location){
 return <WeatherMessage temp={temp} location={location}/>;
   }
@@ -39,7 +39,7 @@ return <WeatherMessage temp={temp} location={location}/>;
 
 return(
   <div>
-  <h2> Obtener Clima</h2>
+  <h1 className="text-center"> Obtener Clima</h1>
    <WeatherForm onSearch={this.handleSearch}/>
    {renderMessage()}
   </div>

@@ -18,7 +18,7 @@ return(
         <input type="text" ref="location" placeholder="Enter city"/>
       </div>
       <div>
-        <button>Obtener Clima</button>
+        <button className="button expanded hollow"> Obtener el Clima</button>
       </div>
     </form>
 </div>
