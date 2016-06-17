@@ -39,7 +39,7 @@ return <WeatherMessage temp={temp} location={location}/>;
 
 return(
   <div>
-  <h1 className="text-center"> Obtener Clima</h1>
+  <h1 className="text-center page-title"> Obtener Clima</h1>
    <WeatherForm onSearch={this.handleSearch}/>
    {renderMessage()}
   </div>
