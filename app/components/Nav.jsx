@@ -2,39 +2,29 @@ var React = require('react');
 var {Link} = require('react-router');
 
 var Nav = React.createClass({
-  onSearch: function(e){
-    e.preventDefault();
-    alert("its not wired up");
-  },
   render: function(){
     return(
  <div className="top-bar">
   <div className="top-bar-left">
     <ul className="menu">
-     <li className="menu-text"> The Weather App </li>
+     <li className="menu-text">
+       <a href="https://shopstorm.com" target="_blank"> shopstorm</a>
+       </li>
       <li>
-        <Link to="/"> Get Weather</Link>
+        <Link to="/about"> About Myself</Link>
       </li>
       <li>
-        <Link to="/about"> About</Link>
-      </li>
-      <li>
-        <Link to="/examples"> Example</Link>
+        <Link to="/examples"> Day Example</Link>
       </li>
     </ul>
 </div>
-  <div className="top-bar-rigth">
-    <form onsubmit={this.onSearch}>
-     <ul className="menu">
-       <li>
-          <input type="search" placeholder="Write the city"/>
+<div className="top-bar-right">
+      <ul className="menu">
+        <li className="menu-text">
+          Created by <a href="https://twitter.com/juanloperz" target="_blank">@juanloperz</a>
         </li>
-       <li>
-          <input type="button" value=" Get Weather!"/>
-       </li>
-     </ul>
-    </form>
-  </div>
+      </ul>
+    </div>
  </div>
 
     );
