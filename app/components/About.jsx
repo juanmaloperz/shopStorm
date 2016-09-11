@@ -21,16 +21,16 @@ var {Link} = require('react-router');
          now that I open the web is another history.</p>
        <p>  Me: Correct Sir., let me ask you; from which device are you seeing the page? </p>
        <p> Client: From my smartphone </p>
-       <p>  Me: All that you design for your website is there, we used tech latest technologies, and if you open the web
+       <p>  Me: All that you design for your website is there, we used the latest tech  technologies, and if you open the web
          from a computer or a big screen, you should see  what you design, Do you have a computer near you?</p>
 <p> Client: yes </p>
-<p> Me: Could you open the website and check please </p>
+<p> Me: Could you open the website and check? please </p>
 <p> Client: the web is Ok  </p>
 <p> Me: we used Media queries a web responsive technology that let us adapt to the costumer device, sometimes is better to do not have a lot of images in web for phones because is going to take more time and the user experience
-  it is not going to be so good  , are you Ok with your this ?</p>
+  it is not going to be so good  , are you ok with your this ?</p>
 <p> Client: Yes, I am </p>
 <p> Me. Thanks for contact us , Is there anything else I can do for you? </p>
-<p> Client: I am Ok </p>
+<p> Client: I am ok </p>
 <p> Me: have a good day</p>
 <p>Client : Good Bye </p>
      </div>
